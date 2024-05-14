@@ -1,9 +1,9 @@
 import Section from '@/components/global/Section';
 import SectionHeader from '@/components/global/SectionHeader';
 
-export default function CTA() {
+export default function LiveShows() {
   return (
-    <Section name="CTA">
+    <Section name="LiveShows">
       {/* Header */}
       <SectionHeader
         title="CTA Section"

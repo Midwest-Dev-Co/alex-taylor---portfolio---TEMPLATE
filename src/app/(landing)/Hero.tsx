@@ -2,6 +2,7 @@ import Section from '@/components/global/Section';
 import Image from 'next/image';
 
 import AlexTaylorHeroImage from '@/assets/images/alex-taylor-fire.jpg';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -37,18 +38,18 @@ export default function Hero() {
               visions into unforgettable experiences.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
+              <Link
+                href="#LiveShows"
                 className="rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
               >
-                Get started
-              </a>
-              <a
-                href="#"
+                Attend Next Live Show
+              </Link>
+              <Link
+                href="#Contact"
                 className="text-sm font-semibold leading-6 text-zinc-900"
               >
-                Learn more <span aria-hidden="true">→</span>
-              </a>
+                Contact Me <span aria-hidden="true">→</span>
+              </Link>
             </div>
           </div>
           <div className="mt-16 flow-root sm:mt-24">
