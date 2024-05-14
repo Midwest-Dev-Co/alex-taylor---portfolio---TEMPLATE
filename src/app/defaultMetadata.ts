@@ -1,13 +1,15 @@
 import { Metadata } from 'next';
 
-const title = 'TSKSLOGAN | ' + process.env.NEXT_PUBLIC_COMPANY_NAME;
+const title =
+  'Transforming Vision into Performance Artistry | ' +
+  process.env.NEXT_PUBLIC_COMPANY_NAME;
 const description = 'TSKDESCRIPTION';
 const baseUrl = 'https://TSKDOMAIN.com';
 
 const images = [
   {
     url: '/maskable_icon.png',
-    alt: 'TSKCOMPANY Logo',
+    alt: 'Alex Taylor Logo',
     width: 512,
     height: 512,
   },
@@ -55,7 +57,7 @@ export const defaultMetadata: Metadata = {
   bookmarks: [baseUrl + '/'],
   openGraph: {
     type: 'website',
-    siteName: 'TSKCOMPANY',
+    siteName: 'Alex Taylor',
     title,
     description,
     url: baseUrl,

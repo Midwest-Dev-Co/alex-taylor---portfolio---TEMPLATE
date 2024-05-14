@@ -20,7 +20,7 @@ export default function SimpleFooter() {
           month: 'long',
           day: 'numeric',
         })}{' '}
-        - TSKCOMPANY. All rights reserved.
+        - Alex Taylor. All rights reserved.
       </p>
 
       {/* Address */}
