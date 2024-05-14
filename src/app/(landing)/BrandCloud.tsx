@@ -34,7 +34,7 @@ const brands = [
 
 export default function BrandCloud() {
   return (
-    <Section name="BrandCloud" className="max-w-7xl mx-auto">
+    <Section name="Brands" className="max-w-7xl mx-auto">
       {/* Content */}
       <div className="pb-8">
         <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">

@@ -1,6 +1,6 @@
 export const mainNavItems = [
-  { name: 'Services', href: '#services' },
-  { name: 'Portfolio', href: '#portfolio' },
+  { name: 'Services', href: '#Services' },
+  { name: 'Portfolio', href: '#Portfolio' },
   { name: 'Testimonials', href: '#Testimonials' },
 ];
 export const secondaryNavItems = [
@@ -12,7 +12,7 @@ export const allNavItems = [...mainNavItems, ...secondaryNavItems];
 
 export const mobileNavItems = [
   { name: 'Brands', href: '#Brands' },
-  { name: 'Services', href: '#services' },
-  { name: 'Portfolio', href: '#portfolio' },
+  { name: 'Services', href: '#Services' },
+  { name: 'Portfolio', href: '#Portfolio' },
   { name: 'Testimonials', href: '#Testimonials' },
 ];
