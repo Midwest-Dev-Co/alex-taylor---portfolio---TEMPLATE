@@ -34,10 +34,10 @@ const brands = [
 
 export default function BrandCloud() {
   return (
-    <Section name="Brands" className="max-w-7xl mx-auto">
+    <Section name="Brands" className="max-w-7xl mx-auto px-4 text-center">
       {/* Content */}
       <div className="pb-8">
-        <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
+        <h2 className="text-center text-lg font-semibold leading-8 text-zinc-900">
           Trusted by the Midwest&apos;s Best to Perform at the Highest Level
         </h2>
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
@@ -60,3 +60,5 @@ export default function BrandCloud() {
     </Section>
   );
 }
+
+// TODO: Fix Medium Screens

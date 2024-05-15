@@ -49,7 +49,7 @@ export default function Navigation() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold leading-6 text-zinc-900"
+              className="text-sm font-semibold leading-6 text-zinc-900 hidden lg:inline-block"
             >
               {item.name}
             </Link>

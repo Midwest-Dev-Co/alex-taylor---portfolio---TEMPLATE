@@ -42,13 +42,15 @@ export default function Hero() {
                 href="#LiveShows"
                 className="rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
               >
-                Attend Next Live Show
+                <span className="hidden sm:inline-block">Attend</span> Next Live
+                Show
               </Link>
               <Link
                 href="#Contact"
                 className="text-sm font-semibold leading-6 text-zinc-900"
               >
-                Contact Me <span aria-hidden="true">→</span>
+                Contact <span className="hidden sm:inline-block">Me</span>{' '}
+                <span aria-hidden="true">→</span>
               </Link>
             </div>
           </div>

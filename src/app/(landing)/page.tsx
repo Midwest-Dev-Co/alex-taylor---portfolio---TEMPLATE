@@ -1,4 +1,3 @@
-import Main from '@/components/global/Main';
 import Hero from './Hero';
 import Services from './Services';
 import Portfolio from './Portfolio';
@@ -9,7 +8,7 @@ import BrandCloud from './BrandCloud';
 
 export default function LandingPage() {
   return (
-    <Main>
+    <main className="grow">
       <Hero />
 
       <BrandCloud />
@@ -23,6 +22,6 @@ export default function LandingPage() {
       <LiveShows />
 
       <Contact />
-    </Main>
+    </main>
   );
 }
