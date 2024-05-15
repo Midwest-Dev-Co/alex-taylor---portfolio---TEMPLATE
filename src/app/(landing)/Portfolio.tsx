@@ -15,6 +15,7 @@ export default function Portfolio() {
         subtitle="Check out some of my recent work"
         description="I've had the pleasure of working at some amazing venues. Here are a few of my favorites!"
         className="pb-6 sm:pb-12"
+        color="orange"
       />
 
       {/* Content */}

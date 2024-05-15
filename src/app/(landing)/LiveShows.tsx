@@ -64,7 +64,7 @@ export default function LiveShows() {
         title="Upcoming Live Shows"
         subtitle="Come and see us live!"
         description="I would love to see you at one of our upcoming live shows. Check out the schedule below and make sure to RSVP."
-        color="red"
+        color="orange"
         className="sm:pb-20"
       />
 
