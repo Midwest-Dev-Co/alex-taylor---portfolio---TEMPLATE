@@ -108,8 +108,19 @@ export default function Footer() {
           ))}
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-zinc-500">
-          &copy; {new Date().getFullYear()} Artfolio by Maxine Porter. All
-          rights reserved.
+          &copy; {new Date().getFullYear()} Midwest Dev Co, LLC. All rights
+          reserved.{' '}
+          <span className="block">
+            Website Designed & Built by{' '}
+            <a
+              href="https://midwestdevco.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-blue-600 hover:text-blue-800"
+            >
+              Midwest Dev Co, LLC
+            </a>
+          </span>
         </p>
       </div>
     </footer>
